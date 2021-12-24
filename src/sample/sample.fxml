@@ -90,7 +90,7 @@
       </Button>
    </AnchorPane>
    <TextField fx:id="city" layoutX="417.0" layoutY="111.0" prefHeight="43.0" prefWidth="170.0" />
-   <Text fx:id="temp_info" layoutX="237.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your town is: ">
+   <Text fx:id="simple_text" layoutX="237.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your town is: ">
       <font>
          <Font size="29.0" />
       </font>
@@ -100,4 +100,8 @@
          <Font size="45.0" />
       </font>
    </Button>
+   <Text fx:id="temp_info" layoutX="218.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature is :" wrappingWidth="247.984375">
+      <font>
+         <Font size="30.0" />
+      </font></Text>
 </AnchorPane>
