@@ -30,16 +30,18 @@ public class Controller {
     private Text temp;
 
     @FXML//sample.Controller
+
     void initialize() {
         start_weather.setOnAction(event -> {
             String getUserCity = city.getText().trim();
-            if (!getUserCity.equals("")) {
+if (!getUserCity.equals("")) {
                 String output = getUrlContent("https://api.openweathermap.org/data/2.5/weather?q=" + getUserCity + "&appid=f51990e7149906aa689774767bf390da&unit=metric");
                 if (!output.isEmpty()) {
                     JSONObject obj = new JSONObject(output);
                     temp.setData("температура: " + obj.getJSONObject("main").getDouble("temp"));
                 }
             }
+
 
         });
 

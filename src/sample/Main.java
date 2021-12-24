@@ -23,15 +23,15 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-        String url = "https://www.gismeteo.by/weather-bishkek-5327/10-days/";
+        /*String url = "https://www.gismeteo.by/weather-bishkek-5327/10-days/";
 
         try {
             Document d = Jsoup.connect(url).get();
-           /* for(Element row : d.select(""));*/
+           *//* for(Element row : d.select(""));*//*
             System.out.println(d.outerHtml());
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
         launch(args);
     }
