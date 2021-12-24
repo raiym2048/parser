@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #46857e;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+<AnchorPane prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #46857e;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
     <AnchorPane prefHeight="105.0" prefWidth="600.0" style="-fx-background-color: #FFEE99;">
       <children>
          <Text layoutX="271.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to TEST">
@@ -89,4 +89,9 @@
             </font>
         </Button>
     </AnchorPane>
+   <Text layoutX="343.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+      <font>
+         <Font size="76.0" />
+      </font>
+   </Text>
 </AnchorPane>
