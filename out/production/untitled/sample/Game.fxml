@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.noGame">
+   <children>
+      <ImageView fx:id="player" fitHeight="44.0" fitWidth="44.0" layoutX="278.0" layoutY="308.0">
+         <image>
+            <Image url="@../image/img1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy1" fitHeight="44.0" fitWidth="44.0" layoutX="91.0" layoutY="54.0">
+         <image>
+            <Image url="@../image/img2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy2" fitHeight="44.0" fitWidth="44.0" layoutX="188.0" layoutY="54.0">
+         <image>
+            <Image url="@../image/img2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy3" fitHeight="44.0" fitWidth="44.0" layoutX="278.0" layoutY="54.0">
+         <image>
+            <Image url="@../image/img2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy4" fitHeight="44.0" fitWidth="44.0" layoutX="376.0" layoutY="54.0">
+         <image>
+            <Image url="@../image/img2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy5" fitHeight="44.0" fitWidth="44.0" layoutX="472.0" layoutY="54.0">
+         <image>
+            <Image url="@../image/img2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="me" layoutX="251.0" layoutY="406.0" mnemonicParsing="false" onKeyPressed="#show" prefHeight="11.0" prefWidth="98.0" text="Me" />
+   </children>
+</AnchorPane>
